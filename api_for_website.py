@@ -59,6 +59,7 @@ def get_suggestions():
     )
     return jsonify({'suggestions': formatted_suggestions})  # Ensure this `return` is within the function
 
+
 if __name__ == '__main__':
     app.run(debug=True)
 
